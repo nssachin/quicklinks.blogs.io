@@ -1,0 +1,16 @@
+<div class="row">  
+    {{#each apps}}
+            <div class="col-md-4">
+                    <div class="panel panel-default height" id="accordon">
+                        <div class="panel-heading rounded text-center"><strong>{{this.name}} </strong>
+                        <span class="mlxs tcs tsxxs">{{this.items.length}} services</span>
+                        </div>
+                            <ul class="list-group">
+                                {{#each this.items}}
+                                    <li class="list-group-item"><a href="{{this.url}}" target="_blank">{{this.label}}</a></li>
+                                {{/each}}
+                            </ul>
+                    </div>
+            </div>
+        {{/each}}
+</div>
