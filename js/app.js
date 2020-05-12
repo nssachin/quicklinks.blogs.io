@@ -1,5 +1,5 @@
 var jqueryNoConflict = jQuery;
-var source = 'https://gist.githubusercontent.com/nssachin/5d341e7e4c9fa4fad097f53e7f10470b/raw/e02d7fff03519049020a42b32d8e2bba4526e0e1/';
+var source = 'https://gist.githubusercontent.com/nssachin/5d341e7e4c9fa4fad097f53e7f10470b/raw/d0424588193a3ffbfba615071ce3dc1dd8729e79/';
 
 //begin with the main function
 jqueryNoConflict(document).ready(function() {
