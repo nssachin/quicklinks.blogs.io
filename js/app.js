@@ -1,9 +1,9 @@
 var jqueryNoConflict = jQuery;
-var source = 'https://gist.githubusercontent.com/nssachin/5d341e7e4c9fa4fad097f53e7f10470b/raw/d0424588193a3ffbfba615071ce3dc1dd8729e79/';
+var source = 'https://gist.githubusercontent.com/nssachin/5d341e7e4c9fa4fad097f53e7f10470b/raw/cfc4a7506c870b640ffdc78598c059de86d9c0a9/';
 
 //begin with the main function
 jqueryNoConflict(document).ready(function() {
-   retrieveData('blogs.json'); 
+   retrieveData('quicklinks.json'); 
 });
 //end main function
 
